@@ -1,0 +1,47 @@
+/* ClientesTable.module.css */
+
+.p-4 {
+  padding: 1rem;
+}
+
+.btnLink {
+  display: inline-block;
+  background-color: #2563eb; /* azul */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.btnLink:hover {
+  background-color: #1d4ed8; /* azul escuro */
+}
+
+.tableWrapper {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.th {
+  background-color: #f3f4f6; /* cinza claro */
+  padding: 0.75rem;
+  border: 1px solid #d1d5db; /* cinza borda */
+  text-align: left;
+  font-weight: 700;
+}
+
+.td {
+  border: 1px solid #d1d5db;
+  padding: 0.75rem;
+}
+
+.trHover:hover {
+  background-color: #e5e7eb; /* hover cinza */
+}

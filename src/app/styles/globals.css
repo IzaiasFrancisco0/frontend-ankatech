@@ -1,0 +1,6 @@
+@layer base {
+  :root {
+    --background: #fff;
+    --foreground: #000;
+  }
+}

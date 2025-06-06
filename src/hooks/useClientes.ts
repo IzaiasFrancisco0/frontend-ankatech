@@ -1,4 +1,3 @@
-// src/hooks/useClientes.ts
 import { useQuery } from '@tanstack/react-query';
 import { api } from '@/services/api';
 
@@ -13,7 +12,7 @@ export function useClientes() {
   return useQuery<Cliente[]>({
     queryKey: ['clientes'],
     queryFn: async () => {
-      const response = await api.get('/clientes'); // Ex: GET /clientes
+      const response = await api.get('/clientes'); 
       return response.data;
     },
   });
