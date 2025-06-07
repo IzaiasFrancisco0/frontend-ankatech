@@ -19,6 +19,7 @@ Crie um arquivo .env.local na raiz do projeto com a seguinte variável:
 NEXT_PUBLIC_API_URL=http://localhost:5000
 
 4. Inicie o servidor de desenvolvimento
+   
 npm run dev ou yarn dev
 
 front/
