@@ -8,6 +8,7 @@ Frontend do projeto desenvolvido com Next.js, React, TypeScript, React Hook Form
 
 ### 1. Clone o repositório
 git clone https://github.com/IzaiasFrancisco0/frontend-ankatech.git
+
 cd front
 
 2. Instale as dependências
