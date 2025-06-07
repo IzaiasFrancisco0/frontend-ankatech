@@ -11,18 +11,14 @@ git clone https://github.com/IzaiasFrancisco0/frontend-ankatech.git
 cd front
 
 2. Instale as dependências
-npm install
-# ou
-yarn install
+npm install ou yarn install
 
 3. Configure o ambiente
 Crie um arquivo .env.local na raiz do projeto com a seguinte variável:
 NEXT_PUBLIC_API_URL=http://localhost:5000
 
 4. Inicie o servidor de desenvolvimento
-npm run dev
-# ou
-yarn dev
+npm run dev ou yarn dev
 
 front/
 ├── app/                    # Páginas com roteamento App Router
